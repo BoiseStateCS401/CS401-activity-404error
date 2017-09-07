@@ -30,3 +30,18 @@ list-style-type: circle;
 ul {
 line-height: 2.5em;
 }
+
+a {
+font-family: "Courier New";
+text-decoration: none;
+line-height: 2em;
+}
+
+a:hover {
+font-size: 1.5em;
+color: pink;
+}
+
+img {
+line-height: 2em:
+}

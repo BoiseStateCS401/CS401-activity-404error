@@ -1,5 +1,5 @@
 body {
-background-color: gray;
+background-color: lightgray;
 }
 
 * {
@@ -39,9 +39,28 @@ line-height: 2em;
 
 a:hover {
 font-size: 1.5em;
-color: pink;
+color: black;
 }
 
-img {
-line-height: 2em:
+table,th,td {
+border: 1px solid black;
 }
+
+th,td {
+padding: 10px;
+text-align: left;
+}
+
+table {
+border-collapse: collapse;
+}
+
+img{
+width: 30%;
+height: 30%;
+}
+
+img:hover {
+src="http://www.seriouseats.com/images/2016/10/20161018-best-way-to-bake-bacon-18.jpg";
+}
+

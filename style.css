@@ -1,5 +1,5 @@
 body {
-background-color: lightgray;
+background-color: gray;
 }
 
 * {
@@ -37,9 +37,33 @@ text-decoration: none;
 line-height: 2em;
 }
 
-a:hover {
+.links a:hover {
 font-size: 1.5em;
-color: black;
+color: pink;
+}
+
+
+
+/*image style*/
+img {
+margin: auto; /*was centering image..quit working*/
+border-radius: 90%;
+opacity: 0.75;
+max-width: 45%;
+height: auto;
+}
+
+/*style applied to hello-world text*/
+pre {
+color: white;
+background-color: black;
+letter-spacing: 0.2em;
+border-style: outset;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+border-width: 20px;
 }
 
 table,th,td {
@@ -55,12 +79,8 @@ table {
 border-collapse: collapse;
 }
 
-img{
-width: 30%;
-height: 30%;
-}
+
 
 img:hover {
 src="http://www.seriouseats.com/images/2016/10/20161018-best-way-to-bake-bacon-18.jpg";
 }
-

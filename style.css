@@ -1,0 +1,32 @@
+body {
+background-color: gray;
+}
+
+* {
+font-family: "Georgia";
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: "Arial";
+font-size: 1.5em;
+}
+
+li,p {
+color: orange;
+}
+
+em {
+color: red;
+}
+
+h1,h2,h3,h4,h5,h6 {
+text-align: center;
+}
+
+li>ul>li {
+list-style-type: circle;
+}
+
+ul {
+line-height: 2.5em;
+}

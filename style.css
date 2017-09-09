@@ -1,83 +1,102 @@
 body {
-background-color: gray;
+	background: linear-gradient(gray, blue, gray);
 }
 
 * {
-font-family: "Georgia";
+	font-family: "Georgia";
 }
 
 h1,h2,h3,h4,h5,h6 {
-font-family: "Arial";
-font-size: 1.5em;
+	font-family: "Arial";
+	font-size: 1.5em;
 }
 
 li,p {
-color: orange;
+	color: orange;
+}
+
+p, footer, ul{
+	padding-left: 5%;
 }
 
 em {
-color: red;
+	color: red;
 }
 
 h1,h2,h3,h4,h5,h6 {
-text-align: center;
+	text-align: center;
 }
 
 li>ul>li {
-list-style-type: circle;
+	list-style-type: circle;
 }
 
 ul {
-line-height: 2.5em;
+	line-height: 2.5em;
 }
 
 a {
-font-family: "Courier New";
-text-decoration: none;
-line-height: 2em;
+	font-family: "Courier New";
+	text-decoration: none;
+	color: white;
 }
 
 .links a:hover {
-font-size: 1.5em;
-color: pink;
+	font-size: 1.5em;
+	color: darkblue;
 }
 
-
+.links a:visited {
+	color: gold;
+}
 
 /*image style*/
 img {
-margin: auto; /*was centering image..quit working*/
-border-radius: 90%;
-opacity: 0.75;
-max-width: 45%;
-height: auto;
+
+	border-radius: 90%;
+	max-width: 45%;
+	height: auto;
+}
+
+img:hover {
+	opacity: 0.5;
 }
 
 /*style applied to hello-world text*/
 pre {
-color: white;
-background-color: black;
-letter-spacing: 0.2em;
-border-style: outset;
-padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding-left: 80px;
-border-width: 20px;
+	color: white;
+	background-color: black;
+	letter-spacing: 0.2em;
+	border-style: outset;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	border-width: 20px;
+	width: 50%;
+	display: inline-block;
 }
 
 table,th,td {
-border: 1px solid black;
+	text-align: left;
+	border: 1px solid black;
+	width: 50%;
 }
 
 th,td {
-padding: 10px;
-text-align: left;
+	padding: 10px;
+	text-align: left;
 }
 
 table {
-border-collapse: collapse;
+	border-collapse: collapse;
 }
 
+div {
+	padding-left: 25%;
+}
 
+.table {
+	padding-left: 33%;
+}
 /* You can view the response status for style.css in the developer tools -> Network -> status */

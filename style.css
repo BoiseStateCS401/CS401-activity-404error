@@ -4,11 +4,27 @@ body {
 
 * {
 	font-family: "Georgia";
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Arial";
-	font-size: 1.5em;
+	text-align: center;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: "Arial";
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.0em;
+}
+
+aside {
+	float: left;
 }
 
 li,p {
@@ -23,9 +39,7 @@ em {
 	color: red;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	text-align: center;
-}
+
 
 li>ul>li {
 	list-style-type: circle;
@@ -56,6 +70,10 @@ img {
 	border-radius: 90%;
 	max-width: 45%;
 	height: auto;
+}
+
+aside img {
+	max-width: 15%;
 }
 
 img:hover {
